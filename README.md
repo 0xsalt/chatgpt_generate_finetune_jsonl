@@ -33,6 +33,7 @@ This script provides essential functionality for fine-tuning data preparation:
 * Python 3.x (already installed on most systems).
 * Your `conversations.json` file, obtained from an OpenAI data export.
 * Virtual environment (recommended): `python -m venv .venv && source .venv/bin/activate`
+* OpenAI CLI (for file management): `pip install openai`
 
 ### Installation
 
@@ -68,6 +69,17 @@ python filter_blog_style.py chat_output.jsonl filtered_output.jsonl
 # Calculate estimated costs for OpenAI fine-tuning
 python estimate_finetune_cost.py filtered_output.jsonl
 ```
+
+#### Step 4: Manage OpenAI Files (Optional)
+```bash
+# List all files in your OpenAI account
+python openai_manage_files.py --list
+
+# Delete a specific file by ID
+python openai_manage_files.py --delete file-abc123
+```
+
+This utility helps you manage files uploaded to OpenAI for fine-tuning.
 
 ### Complete Example Workflow
 
