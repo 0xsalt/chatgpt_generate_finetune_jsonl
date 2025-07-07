@@ -1,6 +1,7 @@
 # Generate Fine-tuning JSONL
 
-## [Blog: Fine-Tuning GPT on My Voice](https://0xsalt.github.io/posts/train_gpt_to_write/)
+## Blog
+[Fine-Tuning GPT on My Voice](https://0xsalt.github.io/posts/train_gpt_to_write/)
 
 ## Quickstart
 
